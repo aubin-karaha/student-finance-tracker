@@ -8,11 +8,6 @@ Help students record spending, search it with regex, and stay under a cap.
 ## Pages
 About · Dashboard · Records · Add/Edit · Settings
 
-## Wireframes
-![Mobile 360px](wireframe-mobile-360.svg)
-![Tablet 768px](wireframe-tablet-768.svg)
-![Desktop 1024px](wireframe-desktop-1024.svg)
-
 ## Data model
 ```json
 { "id": "rec_0001", "description": "Lunch at cafeteria", "amount": 12.50,
@@ -46,7 +41,7 @@ Tests to make:
 ## Accessibility plan
 - Landmarks used: header, nav, main, section, footer; one h1, h2 per section 
 - Skip-to-content link; every input has a bound label
-- Visible focus ring (3px) on every control; full keyboard flow
 - Colour contrast (I will probably check with browser DevTools)
+- Dark theme 
 - Reduced-motion media query turns animations off
 - Breakpoints: 360px, 768px, 1024px (using media queries)
