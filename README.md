@@ -3,7 +3,6 @@
 A simple, responsive and accessible app for recording student spending, searching it with regex, and staying under a spending cap. Built with plain HTML, CSS and JavaScript.
 
 - **Theme:** Student Finance Tracker
-- **Live site:** https://aubin-karaha.github.io/REPO-NAME/
 - **Demo video (unlisted):** PASTE-YOUR-VIDEO-LINK-HERE
 - **Author:** [aubin-karaha](https://github.com/aubin-karaha) · c.karaha@alustudent.com
 
@@ -12,14 +11,14 @@ A simple, responsive and accessible app for recording student spending, searchin
 - Pages: About, Dashboard, Records, Add Expense, Settings
 - Add, edit and delete records (delete asks first), saved automatically in `localStorage`
 - Form checks with 5 regex rules and clear error messages
-- Regex search with a case switch and `<mark>` highlighting; a broken pattern never crashes the page
+- Regex search with a case switch 
 - Sorting by date, description and amount
 - Dashboard: total records, total spent, top category, 7-day chart
 - Spending cap with polite (under) and assertive (over) screen reader messages
 - Three currencies with rates I set by hand, and editable categories
 - JSON export and import (import checks every record first)
 - Light and dark theme button, and the choice is saved
-- Mobile-first layout with 3 breakpoints (360px, 768px, 1024px)
+- Mobile-first layout with 3 breakpoints (768px, 1024px)
 
 ## Regex catalog
 
@@ -46,7 +45,6 @@ Search ideas: `\.\d{2}\b` (amounts with cents), `(coffee\|tea)`, `^Bus`.
 - Landmarks (`header`, `nav`, `main`, `section`, `footer`), proper headings and a skip link
 - Every input has a label; errors use `aria-describedby`
 - `role="status"` and `aria-live` for messages (polite under the cap, assertive over it)
-- Buttons have clear names, like "Delete Bus pass"
 - Visible focus outline; animations turn off for reduced-motion users
 
 ## How to run
@@ -57,10 +55,5 @@ The app uses JavaScript modules, so it needs a local server (double-clicking `in
 2. Run `python3 -m http.server 8000`
 3. Open `http://localhost:8000`
 
-## How to run the tests
-
-With the server running, open `http://localhost:8000/tests.html`. Each line shows ✅ or ❌.
-
-## Credits
 
 Starter snippets (`compileRegex`, `highlight`, `load` and `save`) come from the assignment brief. I used an AI assistant (Claude) for guidance and debugging, and I tested and edited the code myself.
