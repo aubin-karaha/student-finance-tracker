@@ -1,0 +1,83 @@
+[
+  {
+    "id": "rec_0001",
+    "title": "Lunch at cafeteria",
+    "value": 12.5,
+    "tag": "Food",
+    "date": "2026-10-18",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0002",
+    "title": "Chemistry textbook",
+    "value": 30.99,
+    "tag": "Books",
+    "date": "2026-10-17",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0003",
+    "title": "Buss pass",
+    "value": 45,
+    "tag": "Transport",
+    "date": "2026-10-16",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0004",
+    "title": "Coffee with friends",
+    "value": 8.75,
+    "tag": "Entertainment",
+    "date": "2026-10-17",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0005",
+    "title": "Tuition fees",
+    "value": 0,
+    "tag": "Fees",
+    "date": "2026-09-01",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0006",
+    "title": "Tea and snacks",
+    "value": 3.2,
+    "tag": "Food",
+    "date": "2026-10-15",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0007",
+    "title": "Movie night",
+    "value": 15,
+    "tag": "Entertainment",
+    "date": "2026-10-14",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0008",
+    "title": "Notebook set",
+    "value": 6.5,
+    "tag": "Books",
+    "date": "2026-10-13",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  },
+  {
+    "id": "rec_0009",
+    "title": "Taxi to home",
+    "value": 70.5,
+    "tag": "Transport",
+    "date": "2026-10-12",
+    "createdAt": "2026-10-18T20:19:06.646Z",
+    "updatedAt": "2026-10-18T20:19:06.646Z"
+  }
+]
