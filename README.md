@@ -54,6 +54,3 @@ The app uses JavaScript modules, so it needs a local server (double-clicking `in
 1. Open a terminal in the project folder.
 2. Run `python3 -m http.server 8000`
 3. Open `http://localhost:8000`
-
-
-Starter snippets (`compileRegex`, `highlight`, `load` and `save`) come from the assignment brief. I used an AI assistant (Claude) for guidance and debugging, and I tested and edited the code myself.
